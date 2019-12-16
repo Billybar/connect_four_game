@@ -1,0 +1,92 @@
+body {
+  background-color: #77777749;
+}
+
+header {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  height: 4.5rem;
+  background-color: #63a4ff;
+  background-image: linear-gradient(315deg, #63a4ff 74%, #83eaf1 10%);
+}
+
+h1 {
+  color: darkred;
+}
+
+.alert {
+  background-color: rgba(24, 23, 22, 0.938);
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
+#playerTurn {
+  transform: scale(1.5, 1.5)
+}
+
+button {
+  cursor: pointer;
+}
+
+table {
+  border-color: rgb(48, 97, 190);
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 1);
+}
+
+
+.base_1 {
+  margin-bottom: 0.4px;
+  border-radius: 180px 180px 0 0;
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 20%, #009ffd 74%);
+  margin-left: -1em;
+  width: 108%;
+  height: 0.5em;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 1);
+}
+
+.base_2 {
+  border-radius: 0 0 0.6em 0.6em;
+  margin-top: 0;
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 20%, #009ffd 74%);
+  margin-left: -2.2em;
+  width: 120%;
+  height: 0.5em;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 1);
+
+}
+
+
+.fas {
+  font-size: 2.5em;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.overP {
+  font-size: 1.5em;
+  color: rgb(187, 183, 183);
+}
+
+
+footer {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  height: 4.5em;
+  background-color: #63a4ff;
+  background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+}
